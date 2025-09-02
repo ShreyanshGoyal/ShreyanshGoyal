@@ -33,13 +33,13 @@ I’m a Senior Manager (Data Science & Production) at UGRO Capital, building **e
 - **Email**: 190100111@iitb.ac.in
 
 ---
-
+<!--
 ## 📚 For Admissions
 - One‑pager **Research Interests**: representation learning, interpretability (concept activation, causal probes), efficient ML for finance/audio.
 - **Industry Impact**: API design + deployment (FastAPI/Docker), real‑time credit‑risk inference, robust monitoring.
 - **Open‑Source Highlights**: see featured repos with tests, CI, releases, and DOIs where relevant.
 
-<!-- - 한국어/日本語 요약 :
+- 한국어/日本語 요약 :
 - 금융/오디오 분야에서 효율적인 머신러닝과 모델 해석 가능성에 관심이 있습니다. Docker 기반의 프로덕션 시스템 경험이 있습니다. -->
 
 ---
