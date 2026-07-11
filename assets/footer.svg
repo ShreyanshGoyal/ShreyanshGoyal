@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1200 150" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Footer">
+  <defs>
+    <linearGradient id="wave1" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="0.5" stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#7dcfff"/>
+    </linearGradient>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="1200" height="150" rx="16"/>
+    </clipPath>
+    <style><![CDATA[
+      text { font-family: Segoe UI, Ubuntu, Helvetica, Arial, sans-serif; }
+      .msg { opacity: 0; animation: fade 1.2s ease-out 0.4s forwards; }
+      @keyframes fade { to { opacity: 1; } }
+    ]]></style>
+  </defs>
+
+  <rect width="1200" height="150" rx="16" fill="#16161e"/>
+  <g clip-path="url(#frame)">
+  <!-- drifting waves (paths are 2400 wide, sliding by one 1200px period) -->
+  <g opacity="0.16">
+    <path fill="url(#wave1)" d="M0 92 Q150 62 300 92 T600 92 T900 92 T1200 92 T1500 92 T1800 92 T2100 92 T2400 92 V150 H0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -1200 0" dur="13s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g opacity="0.3">
+    <path fill="url(#wave1)" d="M0 108 Q150 84 300 108 T600 108 T900 108 T1200 108 T1500 108 T1800 108 T2100 108 T2400 108 V150 H0 Z">
+      <animateTransform attributeName="transform" type="translate" values="-1200 0; 0 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g opacity="0.55">
+    <path fill="url(#wave1)" d="M0 124 Q150 106 300 124 T600 124 T900 124 T1200 124 T1500 124 T1800 124 T2100 124 T2400 124 V150 H0 Z">
+      <animateTransform attributeName="transform" type="translate" values="0 0; -1200 0" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="148" rx="15" stroke="#2a2e3f" stroke-width="2" fill="none"/>
+
+  <text class="msg" x="600" y="52" text-anchor="middle" font-size="19" font-weight="600" fill="#a9b1d6">✦&#160;&#160;Thanks for stopping by — let's build something intelligent&#160;&#160;✦</text>
+</svg>

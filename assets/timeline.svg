@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1200 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Career timeline: IIT Bombay to UGRO Capital to MyShubhLife to NTU Singapore">
+  <defs>
+    <linearGradient id="tlGrad" x1="70" y1="0" x2="1130" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="0.33" stop-color="#9ece6a"/>
+      <stop offset="0.66" stop-color="#e0af68"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <style><![CDATA[
+      .ms { opacity: 0; animation: appear 0.6s ease-out forwards; }
+      .m1 { animation-delay: 0.3s; } .m2 { animation-delay: 0.7s; }
+      .m3 { animation-delay: 1.1s; } .m4 { animation-delay: 1.5s; }
+      .m5 { animation-delay: 1.9s; }
+      @keyframes appear { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+      .halo { animation: ripple 2.6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+      .h2 { animation-delay: 0.5s; } .h3 { animation-delay: 1s; } .h4 { animation-delay: 1.5s; } .h5 { animation-delay: 2s; }
+      @keyframes ripple { 0% { transform: scale(1); opacity: 0.7; } 100% { transform: scale(2.4); opacity: 0; } }
+      text { font-family: Segoe UI, Ubuntu, Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="208" rx="14" fill="#16161e" stroke="#2a2e3f" stroke-width="2"/>
+
+  <!-- base + animated line -->
+  <line x1="70" y1="110" x2="1130" y2="110" stroke="#2a2e3f" stroke-width="4" stroke-linecap="round"/>
+  <line x1="70" y1="110" x2="1130" y2="110" stroke="url(#tlGrad)" stroke-width="4" stroke-linecap="round" stroke-dasharray="1060" stroke-dashoffset="1060">
+    <animate attributeName="stroke-dashoffset" values="1060;0" dur="2.2s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.4 0 0.2 1"/>
+  </line>
+
+  <!-- 2019 IIT Bombay -->
+  <g class="ms m1">
+    <text x="130" y="76" text-anchor="middle" font-size="20" font-weight="800" fill="#c0caf5">2019</text>
+    <circle class="halo" cx="130" cy="110" r="9" fill="none" stroke="#7aa2f7" stroke-width="2"/>
+    <circle cx="130" cy="110" r="9" fill="#7aa2f7"/>
+    <text x="130" y="146" text-anchor="middle" font-size="15" font-weight="700" fill="#7aa2f7">IIT Bombay</text>
+    <text x="130" y="168" text-anchor="middle" font-size="12.5" fill="#787c99">B.Tech · JEE Adv AIR 990</text>
+  </g>
+
+  <!-- 2023 UGRO -->
+  <g class="ms m2">
+    <text x="380" y="76" text-anchor="middle" font-size="20" font-weight="800" fill="#c0caf5">2023</text>
+    <circle class="halo h2" cx="380" cy="110" r="9" fill="none" stroke="#9ece6a" stroke-width="2"/>
+    <circle cx="380" cy="110" r="9" fill="#9ece6a"/>
+    <text x="380" y="146" text-anchor="middle" font-size="15" font-weight="700" fill="#9ece6a">UGRO Capital</text>
+    <text x="380" y="168" text-anchor="middle" font-size="12.5" fill="#787c99">ML &amp; Decision Science</text>
+  </g>
+
+  <!-- 2025 MyShubhLife -->
+  <g class="ms m3">
+    <text x="630" y="76" text-anchor="middle" font-size="20" font-weight="800" fill="#c0caf5">2025</text>
+    <circle class="halo h3" cx="630" cy="110" r="9" fill="none" stroke="#e0af68" stroke-width="2"/>
+    <circle cx="630" cy="110" r="9" fill="#e0af68"/>
+    <text x="630" y="146" text-anchor="middle" font-size="15" font-weight="700" fill="#e0af68">MyShubhLife</text>
+    <text x="630" y="168" text-anchor="middle" font-size="12.5" fill="#787c99">Lead ML Engineer</text>
+  </g>
+
+  <!-- 2026 NTU -->
+  <g class="ms m4">
+    <text x="880" y="76" text-anchor="middle" font-size="20" font-weight="800" fill="#c0caf5">2026</text>
+    <circle class="halo h4" cx="880" cy="110" r="9" fill="none" stroke="#bb9af7" stroke-width="2"/>
+    <circle cx="880" cy="110" r="9" fill="#bb9af7"/>
+    <text x="880" y="146" text-anchor="middle" font-size="15" font-weight="700" fill="#bb9af7">NTU Singapore</text>
+    <text x="880" y="168" text-anchor="middle" font-size="12.5" fill="#787c99">MSc Data Science</text>
+  </g>
+
+  <!-- beyond -->
+  <g class="ms m5">
+    <text x="1095" y="76" text-anchor="middle" font-size="20" font-weight="800" fill="#c0caf5">2027+</text>
+    <circle class="halo h5" cx="1095" cy="110" r="9" fill="none" stroke="#7dcfff" stroke-width="2"/>
+    <circle cx="1095" cy="110" r="9" fill="#7dcfff"/>
+    <text x="1095" y="146" text-anchor="middle" font-size="15" font-weight="700" fill="#7dcfff">What's next ✦</text>
+    <text x="1095" y="168" text-anchor="middle" font-size="12.5" fill="#787c99">research × production ML</text>
+  </g>
+</svg>
