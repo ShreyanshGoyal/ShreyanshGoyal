@@ -1,13 +1,7 @@
-<!-- ════════════════════════ HEADER ════════════════════════ -->
+<!-- ════════════════════════ HERO ════════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,50:414868,100:7aa2f7&height=220&section=header&text=Shreyansh%20Goyal&fontSize=62&fontColor=c0caf5&animation=fadeIn&fontAlignY=36&desc=Machine%20Learning%20Engineer%20%E2%80%A2%20MSc%20Data%20Science%20%40%20NTU%20Singapore&descAlignY=58&descSize=18" alt="header banner" width="100%"/>
+  <img src="assets/hero.svg" alt="Shreyansh Goyal — Machine Learning Engineer · Incoming MSc Data Science @ NTU Singapore" width="100%"/>
 </div>
-
-<p align="center">
-  <a href="https://github.com/ShreyanshGoyal">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=900&color=7AA2F7&center=true&vCenter=true&width=620&lines=Machine+Learning+Engineer;Incoming+MSc+Data+Science+%40+NTU+Singapore;Credit-Risk+ML+%E2%80%A2+GNNs+%E2%80%A2+MLOps;IIT+Bombay+Alum+%E2%80%A2+Kaggle+Competitor" alt="typing intro"/>
-  </a>
-</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/shreyansh-goyal-iitb/"><img src="https://img.shields.io/badge/LinkedIn-shreyansh--goyal--iitb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -16,27 +10,27 @@
   <img src="https://komarev.com/ghpvc/?username=ShreyanshGoyal&style=for-the-badge&color=bb9af7" alt="Profile views"/>
 </p>
 
----
+## 🧑‍💻 whoami
 
-## 🚀 About Me
+<div align="center">
+  <img src="assets/terminal.svg" alt="Terminal bio: ML Engineer, MSc Data Science @ NTU Singapore (Aug 2026), B.Tech IIT Bombay, Lead MLE @ MyShubhLife, ML & Decision Science @ UGRO Capital" width="100%"/>
+</div>
 
-- 🎓 Incoming **MSc in Data Science** @ **Nanyang Technological University, Singapore** - College of Computing & Data Science *(Aug 2026)*
-- 💼 Previously **Lead Machine Learning Engineer** @ MyShubhLife & **ML/DS Analyst** @ UGRO Capital - 3 years shipping credit-risk decisioning systems end-to-end *(modeling → pipelines → AWS production)*
-- 🕸️ Lifted default-prediction **AUC 0.65 → 0.75** with counterparty **Graph Neural Networks** over **150M+ transactions**
-- 🚨 Built an Early-Warning System (**test AUC 0.87**) powering dashboards and collections triage
-- ⚡ Cut model-serving infra cost **74%** and scoring latency **60s → 28s** on AWS Lambda
-- 🏛️ **B.Tech, IIT Bombay** *(2019–2023)* - JEE Advanced **AIR 990** of 200K
-- 🎹 When not training models: piano *(Trinity College London, Music Theory Distinction)*
+- 🎓 Incoming **MSc in Data Science** @ **Nanyang Technological University, Singapore** — College of Computing & Data Science *(Aug 2026)*
+- 💼 3 years shipping **credit-risk ML end-to-end** — Lead ML Engineer @ MyShubhLife, ML & Decision Science @ UGRO Capital
+- 🔬 Into **GNNs**, **time-series**, **model interpretability**, **efficient ML**, and **audio** — with a soft spot for Kaggle leaderboards 🎹
 
-## 📊 Impact, By the Numbers
+## 🚀 The Journey
 
-<p align="center">
-  <img src="https://img.shields.io/badge/GNN%20AUC%20lift-0.65%20%E2%86%92%200.75-7aa2f7?style=for-the-badge&labelColor=1a1b27" alt="AUC lift"/>
-  <img src="https://img.shields.io/badge/Early--Warning%20AUC-0.87-9ece6a?style=for-the-badge&labelColor=1a1b27" alt="EWS AUC"/>
-  <img src="https://img.shields.io/badge/Infra%20cost-%E2%88%9274%25-bb9af7?style=for-the-badge&labelColor=1a1b27" alt="Infra cost cut"/>
-  <img src="https://img.shields.io/badge/Transactions%20modeled-150M%2B-e0af68?style=for-the-badge&labelColor=1a1b27" alt="Transactions"/>
-  <img src="https://img.shields.io/badge/Forecast%20MAPE-12.5%25-f7768e?style=for-the-badge&labelColor=1a1b27" alt="MAPE"/>
-</p>
+<div align="center">
+  <img src="assets/timeline.svg" alt="Timeline: 2019 IIT Bombay → 2023 UGRO Capital → 2025 MyShubhLife → 2026 NTU Singapore → 2027+" width="100%"/>
+</div>
+
+## 📊 Production Impact
+
+<div align="center">
+  <img src="assets/metrics.svg" alt="Metrics: default AUC 0.65→0.75 with GNNs, early-warning AUC 0.87, −74% serving infra cost, latency 60s→28s, 150M+ transactions" width="100%"/>
+</div>
 
 ## 🛠️ Tech Stack
 
@@ -63,23 +57,18 @@
 
 </div>
 
-## 📈 GitHub Stats
+## 📈 GitHub Activity
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ShreyanshGoyal&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats"/>
-  <img height="180" src="https://streak-stats.demolab.com?user=ShreyanshGoyal&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ShreyanshGoyal&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
+  <img src="https://streak-stats.demolab.com?user=ShreyanshGoyal&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </div>
 
 ## 🏆 Kaggle Highlights
 
 | Competition | What I built |
 |---|---|
-| 🏈 **NFL Big Data Bowl 2026** - *Player Trajectory Modeling* | Spatio-temporal residual model over a physics baseline (CatBoost + LightGBM + neural head with horizon buckets) on `[batch, steps, players, features]` tensors - **~0.65 RMSE** locally vs. a ~0.70 leaderboard baseline, with a leakage-safe training/eval pipeline. |
-| 🧩 **NeuroGolf 2026** - *Minimal Neural Networks for ARC-AGI* | Rule-detection + per-task training pipeline producing the **smallest possible ONNX networks** that *exactly* solve abstract-reasoning grid tasks under strict parameter budgets, via automated architecture shrinking and verification. |
+| 🏈 **NFL Big Data Bowl 2026** — *Player Trajectory Modeling* | Spatio-temporal residual model over a physics baseline (CatBoost + LightGBM + neural head with horizon buckets) on `[batch, steps, players, features]` tensors — **~0.65 RMSE** locally vs. a ~0.70 leaderboard baseline, with a leakage-safe training/eval pipeline. |
+| 🧩 **NeuroGolf 2026** — *Minimal Neural Networks for ARC-AGI* | Rule-detection + per-task training pipeline producing the **smallest possible ONNX networks** that *exactly* solve abstract-reasoning grid tasks under strict parameter budgets, via automated architecture shrinking and verification. |
 
 ## 💡 Featured Projects
 
@@ -99,11 +88,7 @@
   <a href="https://github.com/ShreyanshGoyal"><img src="https://img.shields.io/badge/GitHub-Follow-1a1b27?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote"/>
-</div>
-
 <!-- ════════════════════════ FOOTER ════════════════════════ -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7aa2f7,50:414868,100:1a1b27&height=140&section=footer" alt="footer banner" width="100%"/>
+  <img src="assets/footer.svg" alt="Thanks for stopping by" width="100%"/>
 </div>
