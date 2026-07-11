@@ -66,7 +66,7 @@
 ## 📈 GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ShreyanshGoyal&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=ShreyanshGoyal&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats"/>
   <img height="180" src="https://streak-stats.demolab.com?user=ShreyanshGoyal&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </div>
 
@@ -83,19 +83,13 @@
 
 ## 💡 Featured Projects
 
-<div align="center">
-  <a href="https://github.com/ShreyanshGoyal/query_by_humming"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyanshGoyal&repo=query_by_humming&theme=tokyonight&hide_border=true&description_lines_count=2" alt="query_by_humming"/></a>
-  <a href="https://github.com/ShreyanshGoyal/rnn_repair"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyanshGoyal&repo=rnn_repair&theme=tokyonight&hide_border=true&description_lines_count=2" alt="rnn_repair"/></a>
-  <a href="https://github.com/ShreyanshGoyal/ray_tracing_engine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyanshGoyal&repo=ray_tracing_engine&theme=tokyonight&hide_border=true&description_lines_count=2" alt="ray_tracing_engine"/></a>
-  <a href="https://github.com/ShreyanshGoyal/multi_objective_optimization"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyanshGoyal&repo=multi_objective_optimization&theme=tokyonight&hide_border=true&description_lines_count=2" alt="multi_objective_optimization"/></a>
-  <a href="https://github.com/ShreyanshGoyal/connectionist_model"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ShreyanshGoyal&repo=connectionist_model&theme=tokyonight&hide_border=true&description_lines_count=2" alt="connectionist_model"/></a>
-</div>
-
-- 🎙️ **[Query by Humming](https://github.com/ShreyanshGoyal/query_by_humming)** - MFCC + DTW retrieval for humming-to-song search, robust to tempo drift, with alignment visualizations and ranking diagnostics
-- 🧠 **[RNN Repair](https://github.com/ShreyanshGoyal/rnn_repair)** - influence-style debugging of RNN misclassifications via feature abstraction (PCA + mixture components) and controlled ablations
-- 🌗 **[Ray Tracing Engine](https://github.com/ShreyanshGoyal/ray_tracing_engine)** - from-scratch renderer with a result gallery and benchmarks
-- 🌀 **[Multi-Objective Optimization](https://github.com/ShreyanshGoyal/multi_objective_optimization)** - Python scaffolding for Pareto-front experiments
-- 🧩 **[Connectionist Model](https://github.com/ShreyanshGoyal/connectionist_model)** - experiments toward global-workspace-style signals
+| Project | What it does |
+|---|---|
+| 🎙️ **[Query by Humming](https://github.com/ShreyanshGoyal/query_by_humming)** | MFCC + DTW retrieval for humming-to-song search, robust to tempo drift, with alignment visualizations and ranking diagnostics. |
+| 🧠 **[RNN Repair](https://github.com/ShreyanshGoyal/rnn_repair)** | Influence-style debugging of RNN misclassifications via feature abstraction (PCA + mixture components) and controlled ablations. |
+| 🌗 **[Ray Tracing Engine](https://github.com/ShreyanshGoyal/ray_tracing_engine)** | From-scratch renderer with a result gallery and benchmarks. |
+| 🌀 **[Multi-Objective Optimization](https://github.com/ShreyanshGoyal/multi_objective_optimization)** | Python scaffolding for Pareto-front experiments. |
+| 🧩 **[Connectionist Model](https://github.com/ShreyanshGoyal/connectionist_model)** | Experiments toward global-workspace-style signals. |
 
 ## 🤝 Let's Connect
 
