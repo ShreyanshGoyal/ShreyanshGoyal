@@ -1,6 +1,6 @@
 <!-- ════════════════════════ HERO ════════════════════════ -->
 <div align="center">
-  <img src="assets/hero.svg" alt="Shreyansh Goyal — Machine Learning Engineer · Incoming MSc Data Science @ NTU Singapore" width="100%"/>
+  <img src="assets/hero.svg" alt="Shreyansh Goyal — Lead ML Engineer · MSc Data Science @ NTU Singapore" width="100%"/>
 </div>
 
 <p align="center">
@@ -16,7 +16,7 @@
   <img src="assets/terminal.svg" alt="Terminal bio: ML Engineer, MSc Data Science @ NTU Singapore (Aug 2026), B.Tech IIT Bombay, Lead MLE @ MyShubhLife, ML & Decision Science @ UGRO Capital" width="100%"/>
 </div>
 
-- 🎓 Incoming **MSc in Data Science** @ **Nanyang Technological University, Singapore** — College of Computing & Data Science *(Aug 2026)*
+- 🎓 **MSc in Data Science** @ **Nanyang Technological University, Singapore** — College of Computing & Data Science *(Aug 2026)*
 - 💼 3 years shipping **credit-risk ML end-to-end** — Lead ML Engineer @ MyShubhLife, ML & Decision Science @ UGRO Capital
 - 🔬 Into **GNNs**, **time-series**, **model interpretability**, **efficient ML**, and **audio** — with a soft spot for Kaggle leaderboards 🎹
 
