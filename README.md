@@ -38,28 +38,29 @@
 
 **Languages & Core**
 
-<img src="https://skillicons.dev/icons?i=python,cpp,mysql,git,linux&theme=dark" alt="languages"/>
+<img src="https://skillicons.dev/icons?i=python,cpp,mysql,git,linux&theme=dark" alt="Python, C++, MySQL, Git, Linux"/>
 
 **ML / Deep Learning**
 
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="ml frameworks"/>
-<br/>
-<img src="https://img.shields.io/badge/XGBoost-2b5f8a?style=for-the-badge&logoColor=white" alt="XGBoost"/>
-<img src="https://img.shields.io/badge/LightGBM-9ece6a?style=for-the-badge&labelColor=1a1b27&color=2b5f8a" alt="LightGBM"/>
-<img src="https://img.shields.io/badge/CatBoost-ffcc00?style=for-the-badge&labelColor=1a1b27&color=2b5f8a" alt="CatBoost"/>
-<img src="https://img.shields.io/badge/Transformers-ff9e64?style=for-the-badge&labelColor=1a1b27&color=2b5f8a" alt="Transformers"/>
-<img src="https://img.shields.io/badge/Graph%20Neural%20Networks-bb9af7?style=for-the-badge&labelColor=1a1b27&color=2b5f8a" alt="GNNs"/>
-<img src="https://img.shields.io/badge/ONNX-005ced?style=for-the-badge&logo=onnx&logoColor=white" alt="ONNX"/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn&theme=dark" alt="PyTorch, TensorFlow, scikit-learn"/>
+
+<img src="assets/focus.svg" alt="XGBoost · LightGBM · CatBoost · Transformers · Graph Neural Networks · ONNX" width="100%"/>
 
 **MLOps & Infrastructure**
 
-<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,postgres,fastapi&theme=dark" alt="mlops"/>
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,postgres,fastapi&theme=dark" alt="AWS, Docker, Kubernetes, PostgreSQL, FastAPI"/>
 
 </div>
 
 ## 📈 GitHub Activity
 
 <div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShreyanshGoyal/ShreyanshGoyal/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShreyanshGoyal/ShreyanshGoyal/output/github-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/ShreyanshGoyal/ShreyanshGoyal/output/github-snake-dark.svg" alt="Snake eating the contribution graph" width="100%"/>
+  </picture>
+  <br/><br/>
   <img src="https://streak-stats.demolab.com?user=ShreyanshGoyal&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </div>
 
@@ -90,5 +91,5 @@
 
 <!-- ════════════════════════ FOOTER ════════════════════════ -->
 <div align="center">
-  <img src="assets/footer.svg" alt="Thanks for stopping by" width="100%"/>
+  <img src="assets/footer.svg" alt="Thanks for stopping by — let's build something intelligent" width="100%"/>
 </div>
