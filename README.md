@@ -1,6 +1,6 @@
 <!-- ════════════════════════ HERO ════════════════════════ -->
 <div align="center">
-  <img src="assets/hero.svg" alt="Shreyansh Goyal — Lead ML Engineer · MSc Data Science @ NTU Singapore" width="100%"/>
+  <img src="assets/hero.svg" alt="Shreyansh Goyal - Lead ML Engineer · MSc Data Science @ NTU Singapore" width="100%"/>
 </div>
 
 <p align="center">
@@ -16,9 +16,9 @@
   <img src="assets/terminal.svg" alt="Terminal bio: ML Engineer, MSc Data Science @ NTU Singapore (Aug 2026), B.Tech IIT Bombay, Lead MLE @ MyShubhLife, ML & Decision Science @ UGRO Capital" width="100%"/>
 </div>
 
-- 🎓 **MSc in Data Science** @ **Nanyang Technological University, Singapore** — College of Computing & Data Science *(Aug 2026)*
-- 💼 3 years shipping **credit-risk ML end-to-end** — Lead ML Engineer @ MyShubhLife, ML & Decision Science @ UGRO Capital
-- 🔬 Into **GNNs**, **time-series**, **model interpretability**, **efficient ML**, and **audio** — with a soft spot for Kaggle leaderboards 🎹
+- 🎓 **MSc in Data Science** @ **Nanyang Technological University, Singapore** - College of Computing & Data Science *(Aug 2026)*
+- 💼 3 years shipping **credit-risk ML end-to-end** - Lead ML Engineer @ MyShubhLife, ML & Decision Science @ UGRO Capital
+- 🔬 Into **GNNs**, **time-series**, **model interpretability**, **efficient ML**, and **audio** - with a soft spot for Kaggle leaderboards 🎹
 
 ## 🚀 The Journey
 
@@ -68,8 +68,8 @@
 
 | Competition | What I built |
 |---|---|
-| 🏈 **NFL Big Data Bowl 2026** — *Player Trajectory Modeling* | Spatio-temporal residual model over a physics baseline (CatBoost + LightGBM + neural head with horizon buckets) on `[batch, steps, players, features]` tensors — **~0.65 RMSE** locally vs. a ~0.70 leaderboard baseline, with a leakage-safe training/eval pipeline. |
-| 🧩 **NeuroGolf 2026** — *Minimal Neural Networks for ARC-AGI* | Rule-detection + per-task training pipeline producing the **smallest possible ONNX networks** that *exactly* solve abstract-reasoning grid tasks under strict parameter budgets, via automated architecture shrinking and verification. |
+| 🏈 **NFL Big Data Bowl 2026** - *Player Trajectory Modeling* | Spatio-temporal residual model over a physics baseline (CatBoost + LightGBM + neural head with horizon buckets) on `[batch, steps, players, features]` tensors - **~0.65 RMSE** locally vs. a ~0.70 leaderboard baseline, with a leakage-safe training/eval pipeline. |
+| 🧩 **NeuroGolf 2026** - *Minimal Neural Networks for ARC-AGI* | Rule-detection + per-task training pipeline producing the **smallest possible ONNX networks** that *exactly* solve abstract-reasoning grid tasks under strict parameter budgets, via automated architecture shrinking and verification. |
 
 ## 💡 Featured Projects
 
@@ -91,5 +91,5 @@
 
 <!-- ════════════════════════ FOOTER ════════════════════════ -->
 <div align="center">
-  <img src="assets/footer.svg" alt="Thanks for stopping by — let's build something intelligent" width="100%"/>
+  <img src="assets/footer.svg" alt="Thanks for stopping by - let's build something intelligent" width="100%"/>
 </div>
