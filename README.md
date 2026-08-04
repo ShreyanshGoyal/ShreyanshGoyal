@@ -6,17 +6,16 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/shreyansh-goyal-iitb/"><img src="https://img.shields.io/badge/LinkedIn-shreyansh--goyal--iitb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:shreyanshgoyal1203@gmail.com"><img src="https://img.shields.io/badge/Gmail-shreyanshgoyal1203-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-  <a href="https://github.com/ShreyanshGoyal?tab=followers"><img src="https://img.shields.io/github/followers/ShreyanshGoyal?style=for-the-badge&logo=github&labelColor=1a1b27&color=7aa2f7" alt="GitHub followers"/></a>
 </p>
 
 ## 🧑‍💻 whoami
 
 <div align="center">
-  <img src="assets/terminal.svg" alt="Terminal bio: ML Engineer, MSc Data Science @ NTU Singapore (Aug 2026), B.Tech IIT Bombay, Lead MLE @ MyShubhLife, ML & Decision Science @ UGRO Capital" width="100%"/>
+  <img src="assets/terminal.svg" alt="Terminal bio: ML Engineer, MSc Data Science @ NTU Singapore (Aug 2026), B.Tech IIT Bombay, Lead MLE @ MyShubhLife, Analyst - ML Processes @ UGRO Capital" width="100%"/>
 </div>
 
 - 🎓 **MSc in Data Science** @ **Nanyang Technological University, Singapore** - College of Computing & Data Science *(Aug 2026)*
-- 💼 3 years shipping **credit-risk ML end-to-end** - Lead ML Engineer @ MyShubhLife, ML & Decision Science @ UGRO Capital
+- 💼 3 years shipping **credit-risk ML end-to-end** - Lead ML Engineer @ MyShubhLife, Analyst - ML Processes @ UGRO Capital
 - 🔬 Into **GNNs**, **time-series**, **model interpretability**, **efficient ML**, and **audio** - with a soft spot for Kaggle leaderboards 🎹
 
 ## 🚀 The Journey
@@ -49,18 +48,6 @@
 
 <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,postgres,fastapi&theme=dark" alt="AWS, Docker, Kubernetes, PostgreSQL, FastAPI"/>
 
-</div>
-
-## 📈 GitHub Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ShreyanshGoyal/ShreyanshGoyal/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ShreyanshGoyal/ShreyanshGoyal/output/github-snake.svg"/>
-    <img src="https://raw.githubusercontent.com/ShreyanshGoyal/ShreyanshGoyal/output/github-snake-dark.svg" alt="Snake eating the contribution graph" width="100%"/>
-  </picture>
-  <br/><br/>
-  <img src="https://streak-stats.demolab.com?user=ShreyanshGoyal&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </div>
 
 ## 🏆 Kaggle Highlights

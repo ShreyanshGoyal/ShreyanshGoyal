@@ -69,7 +69,7 @@
       <animate attributeName="opacity" values="1;0" dur="0.01s" begin="5.4s" fill="freeze"/>
     </rect>
     <text class="ln o4" x="30" y="272" fill="#a9b1d6"><tspan fill="#bb9af7" font-weight="700">2025–26</tspan><tspan dx="10">Lead ML Engineer - MyShubhLife</tspan></text>
-    <text class="ln o5" x="30" y="300" fill="#a9b1d6"><tspan fill="#bb9af7" font-weight="700">2023–24</tspan><tspan dx="10">ML &amp; Decision Science - UGRO Capital</tspan></text>
+    <text class="ln o5" x="30" y="300" fill="#a9b1d6"><tspan fill="#bb9af7" font-weight="700">2023–24</tspan><tspan dx="10">Analyst - ML Processes - UGRO Capital</tspan></text>
 
     <!-- $ grep interests -->
     <text class="ln p4" x="30" y="338" fill="#9ece6a" font-weight="700">$</text>
