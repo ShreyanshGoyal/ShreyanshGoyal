@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1200 210" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Production impact metrics">
+  <defs>
+    <linearGradient id="gA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3d59a1"/><stop offset="1" stop-color="#7dcfff"/></linearGradient>
+    <linearGradient id="gB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6f9c4a"/><stop offset="1" stop-color="#c3e88d"/></linearGradient>
+    <linearGradient id="gC" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7a5cc4"/><stop offset="1" stop-color="#d7bbff"/></linearGradient>
+    <linearGradient id="gD" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b8863b"/><stop offset="1" stop-color="#f2cf8f"/></linearGradient>
+    <linearGradient id="gE" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2ac3de"/><stop offset="1" stop-color="#b4f9f8"/></linearGradient>
+    <filter id="fA" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#7aa2f7" flood-opacity="0.4"/></filter>
+    <filter id="fB" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#9ece6a" flood-opacity="0.4"/></filter>
+    <filter id="fC" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#bb9af7" flood-opacity="0.4"/></filter>
+    <filter id="fD" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#e0af68" flood-opacity="0.4"/></filter>
+    <filter id="fE" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#7dcfff" flood-opacity="0.4"/></filter>
+    <style><![CDATA[
+      .card { opacity: 0; animation: rise 0.7s ease-out forwards; }
+      .c1 { animation-delay: 0.1s; } .c2 { animation-delay: 0.3s; }
+      .c3 { animation-delay: 0.5s; } .c4 { animation-delay: 0.7s; }
+      .c5 { animation-delay: 0.9s; }
+      @keyframes rise { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      text { font-family: Segoe UI, Ubuntu, Helvetica, Arial, sans-serif; }
+      @media (prefers-reduced-motion: reduce) {
+        .card { animation: none !important; opacity: 1 !important; }
+      }
+    ]]></style>
+  </defs>
+
+  <!-- card 1: AUC lift -->
+  <g class="card c1">
+    <rect x="8" y="5" width="224" height="200" rx="14" fill="#16161e" stroke="#2a2e3f" stroke-width="2"/>
+    <rect x="22" y="14" width="196" height="3" rx="1.5" fill="url(#gA)" opacity="0.85"/>
+    <circle cx="120" cy="82" r="53" stroke="#2a2e3f" stroke-width="1.5" stroke-dasharray="2 6" fill="none"/>
+    <circle cx="120" cy="82" r="42" stroke="#24283b" stroke-width="9" fill="none"/>
+    <circle cx="120" cy="82" r="42" stroke="url(#gA)" stroke-width="9" fill="none" stroke-linecap="round" transform="rotate(-90 120 82)" filter="url(#fA)">
+      <animate attributeName="stroke-dasharray" values="0 264; 198 264" dur="1.6s" begin="0.4s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text x="120" y="80" text-anchor="middle" font-size="22" font-weight="800" fill="#7aa2f7">0.75</text>
+    <text x="120" y="98" text-anchor="middle" font-size="10.5" font-weight="700" fill="#9ece6a">▲ +0.10</text>
+    <text x="120" y="156" text-anchor="middle" font-size="14.5" font-weight="700" fill="#c0caf5">Default AUC</text>
+    <text x="120" y="177" text-anchor="middle" font-size="12.5" fill="#787c99">0.65 → 0.75 with GNNs</text>
+  </g>
+
+  <!-- card 2: EWS -->
+  <g class="card c2">
+    <rect x="248" y="5" width="224" height="200" rx="14" fill="#16161e" stroke="#2a2e3f" stroke-width="2"/>
+    <rect x="262" y="14" width="196" height="3" rx="1.5" fill="url(#gB)" opacity="0.85"/>
+    <circle cx="360" cy="82" r="53" stroke="#2a2e3f" stroke-width="1.5" stroke-dasharray="2 6" fill="none"/>
+    <circle cx="360" cy="82" r="42" stroke="#24283b" stroke-width="9" fill="none"/>
+    <circle cx="360" cy="82" r="42" stroke="url(#gB)" stroke-width="9" fill="none" stroke-linecap="round" transform="rotate(-90 360 82)" filter="url(#fB)">
+      <animate attributeName="stroke-dasharray" values="0 264; 230 264" dur="1.6s" begin="0.6s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text x="360" y="80" text-anchor="middle" font-size="22" font-weight="800" fill="#9ece6a">0.87</text>
+    <text x="360" y="98" text-anchor="middle" font-size="10.5" font-weight="700" fill="#787c99">test AUC</text>
+    <text x="360" y="156" text-anchor="middle" font-size="14.5" font-weight="700" fill="#c0caf5">Early-Warning System</text>
+    <text x="360" y="177" text-anchor="middle" font-size="12.5" fill="#787c99">drives collections priority</text>
+  </g>
+
+  <!-- card 3: infra cost -->
+  <g class="card c3">
+    <rect x="488" y="5" width="224" height="200" rx="14" fill="#16161e" stroke="#2a2e3f" stroke-width="2"/>
+    <rect x="502" y="14" width="196" height="3" rx="1.5" fill="url(#gC)" opacity="0.85"/>
+    <circle cx="600" cy="82" r="53" stroke="#2a2e3f" stroke-width="1.5" stroke-dasharray="2 6" fill="none"/>
+    <circle cx="600" cy="82" r="42" stroke="#24283b" stroke-width="9" fill="none"/>
+    <circle cx="600" cy="82" r="42" stroke="url(#gC)" stroke-width="9" fill="none" stroke-linecap="round" transform="rotate(-90 600 82)" filter="url(#fC)">
+      <animate attributeName="stroke-dasharray" values="0 264; 195 264" dur="1.6s" begin="0.8s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text x="600" y="80" text-anchor="middle" font-size="22" font-weight="800" fill="#bb9af7">−74%</text>
+    <text x="600" y="98" text-anchor="middle" font-size="10.5" font-weight="700" fill="#9ece6a">▼ spend</text>
+    <text x="600" y="156" text-anchor="middle" font-size="14.5" font-weight="700" fill="#c0caf5">Serving Infra Cost</text>
+    <text x="600" y="177" text-anchor="middle" font-size="12.5" fill="#787c99">AWS Lambda optimization</text>
+  </g>
+
+  <!-- card 4: latency -->
+  <g class="card c4">
+    <rect x="728" y="5" width="224" height="200" rx="14" fill="#16161e" stroke="#2a2e3f" stroke-width="2"/>
+    <rect x="742" y="14" width="196" height="3" rx="1.5" fill="url(#gD)" opacity="0.85"/>
+    <circle cx="840" cy="82" r="53" stroke="#2a2e3f" stroke-width="1.5" stroke-dasharray="2 6" fill="none"/>
+    <circle cx="840" cy="82" r="42" stroke="#24283b" stroke-width="9" fill="none"/>
+    <circle cx="840" cy="82" r="42" stroke="url(#gD)" stroke-width="9" fill="none" stroke-linecap="round" transform="rotate(-90 840 82)" filter="url(#fD)">
+      <animate attributeName="stroke-dasharray" values="0 264; 140 264" dur="1.6s" begin="1.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text x="840" y="80" text-anchor="middle" font-size="22" font-weight="800" fill="#e0af68">28s</text>
+    <text x="840" y="98" text-anchor="middle" font-size="10.5" font-weight="700" fill="#9ece6a">▼ from 60s</text>
+    <text x="840" y="156" text-anchor="middle" font-size="14.5" font-weight="700" fill="#c0caf5">Scoring Latency</text>
+    <text x="840" y="177" text-anchor="middle" font-size="12.5" fill="#787c99">end-to-end pipeline</text>
+  </g>
+
+  <!-- card 5: scale -->
+  <g class="card c5">
+    <rect x="968" y="5" width="224" height="200" rx="14" fill="#16161e" stroke="#2a2e3f" stroke-width="2"/>
+    <rect x="982" y="14" width="196" height="3" rx="1.5" fill="url(#gE)" opacity="0.85"/>
+    <circle cx="1080" cy="82" r="53" stroke="#2a2e3f" stroke-width="1.5" stroke-dasharray="2 6" fill="none"/>
+    <circle cx="1080" cy="82" r="42" stroke="#24283b" stroke-width="9" fill="none"/>
+    <circle cx="1080" cy="82" r="42" stroke="url(#gE)" stroke-width="9" fill="none" stroke-linecap="round" transform="rotate(-90 1080 82)" filter="url(#fE)">
+      <animate attributeName="stroke-dasharray" values="0 264; 264 264" dur="1.8s" begin="1.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.25 0.1 0.25 1"/>
+    </circle>
+    <text x="1080" y="80" text-anchor="middle" font-size="17" font-weight="800" fill="#7dcfff">150M+</text>
+    <text x="1080" y="98" text-anchor="middle" font-size="10.5" font-weight="700" fill="#787c99">txn graph</text>
+    <text x="1080" y="156" text-anchor="middle" font-size="14.5" font-weight="700" fill="#c0caf5">Transactions</text>
+    <text x="1080" y="177" text-anchor="middle" font-size="12.5" fill="#787c99">in the counterparty graph</text>
+  </g>
+</svg>

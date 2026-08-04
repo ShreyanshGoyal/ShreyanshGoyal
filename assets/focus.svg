@@ -1,0 +1,51 @@
+<svg viewBox="0 0 1200 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ML toolkit: XGBoost, LightGBM, CatBoost, Transformers, Graph Neural Networks, ONNX">
+  <defs>
+    <style><![CDATA[
+      .chip { opacity: 0; animation: pop 0.55s cubic-bezier(0.2, 0.8, 0.3, 1.2) forwards; transform-box: fill-box; transform-origin: center; }
+      .k1 { animation-delay: 0.10s; } .k2 { animation-delay: 0.25s; }
+      .k3 { animation-delay: 0.40s; } .k4 { animation-delay: 0.55s; }
+      .k5 { animation-delay: 0.70s; } .k6 { animation-delay: 0.85s; }
+      @keyframes pop { from { opacity: 0; transform: scale(0.85); } to { opacity: 1; transform: scale(1); } }
+      .dot { animation: glow 2.6s ease-in-out infinite; }
+      .g2 { animation-delay: 0.4s; } .g3 { animation-delay: 0.8s; }
+      .g4 { animation-delay: 1.2s; } .g5 { animation-delay: 1.6s; } .g6 { animation-delay: 2s; }
+      @keyframes glow { 0%, 100% { opacity: 0.45; } 50% { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) {
+        .chip, .dot { animation: none !important; opacity: 1 !important; }
+      }
+    ]]></style>
+  </defs>
+
+  <g font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif" font-size="14" font-weight="600">
+  <g class="chip k1">
+    <rect x="186" y="14" width="100" height="36" rx="18" fill="#7aa2f7" fill-opacity="0.08" stroke="#7aa2f7" stroke-opacity="0.5"/>
+    <circle class="dot" cx="204" cy="32" r="3.5" fill="#7aa2f7"/>
+    <text x="244" y="37" text-anchor="middle" fill="#7aa2f7">XGBoost</text>
+  </g>
+  <g class="chip k2">
+    <rect x="300" y="14" width="108" height="36" rx="18" fill="#9ece6a" fill-opacity="0.08" stroke="#9ece6a" stroke-opacity="0.5"/>
+    <circle class="dot g2" cx="318" cy="32" r="3.5" fill="#9ece6a"/>
+    <text x="362" y="37" text-anchor="middle" fill="#9ece6a">LightGBM</text>
+  </g>
+  <g class="chip k3">
+    <rect x="422" y="14" width="108" height="36" rx="18" fill="#e0af68" fill-opacity="0.08" stroke="#e0af68" stroke-opacity="0.5"/>
+    <circle class="dot g3" cx="440" cy="32" r="3.5" fill="#e0af68"/>
+    <text x="484" y="37" text-anchor="middle" fill="#e0af68">CatBoost</text>
+  </g>
+  <g class="chip k4">
+    <rect x="544" y="14" width="144" height="36" rx="18" fill="#f7768e" fill-opacity="0.08" stroke="#f7768e" stroke-opacity="0.5"/>
+    <circle class="dot g4" cx="562" cy="32" r="3.5" fill="#f7768e"/>
+    <text x="624" y="37" text-anchor="middle" fill="#f7768e">Transformers</text>
+  </g>
+  <g class="chip k5">
+    <rect x="702" y="14" width="222" height="36" rx="18" fill="#bb9af7" fill-opacity="0.08" stroke="#bb9af7" stroke-opacity="0.5"/>
+    <circle class="dot g5" cx="720" cy="32" r="3.5" fill="#bb9af7"/>
+    <text x="821" y="37" text-anchor="middle" fill="#bb9af7">Graph Neural Networks</text>
+  </g>
+  <g class="chip k6">
+    <rect x="938" y="14" width="76" height="36" rx="18" fill="#7dcfff" fill-opacity="0.08" stroke="#7dcfff" stroke-opacity="0.5"/>
+    <circle class="dot g6" cx="956" cy="32" r="3.5" fill="#7dcfff"/>
+    <text x="989" y="37" text-anchor="middle" fill="#7dcfff">ONNX</text>
+  </g>
+  </g>
+</svg>
