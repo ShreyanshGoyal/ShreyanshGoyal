@@ -63,6 +63,7 @@
 |---|---|
 | 🎙️ **[Query by Humming](https://github.com/ShreyanshGoyal/query_by_humming)** | MFCC + DTW retrieval for humming-to-song search, robust to tempo drift, with alignment visualizations and ranking diagnostics. |
 | 🧠 **[RNN Repair Reproduction](https://github.com/ShreyanshGoyal/rnnrepair-reproduction)** | Reproduction and extension of *RNNRepair* (Xie et al., ICML 2021) - course project (IE643, IIT Bombay). Our additions: confidence-score thresholding, K-means vs. Mean-shift vs. GMM state abstraction, and extending sample-level influence analysis to CNNs. |
+| 🏦 **[Credit Scoring Service](https://github.com/ShreyanshGoyal/credit-scoring-service)** · **[live demo](https://credit-scoring-service-1042616833497.asia-southeast1.run.app/)** | Production-style credit-risk scoring API: FastAPI + LightGBM, Pydantic validation at the edge, PSI drift monitoring over a rolling window, Docker, CI and a container smoke test. Deployed on Cloud Run. |
 | 🌗 **[Ray Tracing Engine](https://github.com/ShreyanshGoyal/ray_tracing_engine)** | From-scratch renderer with a result gallery and benchmarks. |
 | 🌀 **[Multi-Objective Optimization](https://github.com/ShreyanshGoyal/multi_objective_optimization)** | Python scaffolding for Pareto-front experiments. |
 | 🧩 **[Connectionist Model](https://github.com/ShreyanshGoyal/connectionist_model)** | Experiments toward global-workspace-style signals. |
