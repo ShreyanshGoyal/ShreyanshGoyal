@@ -53,7 +53,7 @@
   <g class="ms m1">
     <text x="120" y="48" text-anchor="middle" font-size="20" font-weight="800" fill="#c0caf5">2019</text>
     <text x="120" y="78" text-anchor="middle" font-size="15" font-weight="700" fill="#7aa2f7">IIT Bombay</text>
-    <text x="120" y="98" text-anchor="middle" font-size="12.5" fill="#787c99">B.Tech · JEE Adv AIR 990</text>
+    <text x="120" y="98" text-anchor="middle" font-size="12.5" fill="#787c99">B.Tech · Mechanical Engineering</text>
     <line x1="120" y1="104" x2="120" y2="110" stroke="#7aa2f7" stroke-width="2" stroke-opacity="0.5"/>
     <circle class="halo" cx="120" cy="120" r="9" fill="none" stroke="#7aa2f7" stroke-width="2"/>
     <circle cx="120" cy="120" r="9" fill="#7aa2f7"/>
