@@ -58,5 +58,5 @@
   </g>
 
   <text class="msg" x="600" y="56" text-anchor="middle" font-size="20" font-weight="700" fill="url(#ftGrad)">Thanks for stopping by - let's build something intelligent</text>
-  <text class="sub" x="600" y="84" text-anchor="middle" font-size="12.5" fill="#787c99">hand-crafted animated SVG · Tokyo Night · zero trackers</text>
+  <text class="sub" x="600" y="84" text-anchor="middle" font-size="12.5" fill="#787c99"></text>
 </svg>
